@@ -1,0 +1,42 @@
+.card-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container > div {
+  border-radius: 15px;
+  padding: 25px;
+  width: 70%;
+}
+
+.card-container > div ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+body section:first-of-type h2 {
+  margin-top: -100px;
+}
+
+.card-container > div h3 {
+  margin-bottom: 10px;
+}
+
+.card-container > div .card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #bebebe, -5px -5px 20px #ffffff;
+}
+
+.card img {
+  width: 24px;
+}

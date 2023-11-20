@@ -1,5 +1,6 @@
 .card {
   padding: 25px 50px;
+  width: 80%;
 }
 
 .card h2 {
@@ -41,4 +42,8 @@ section .sunken {
 table tr {
   color: rgb(89, 89, 89);
   vertical-align: middle;
+}
+
+.description {
+  text-indent: 50px;
 }
